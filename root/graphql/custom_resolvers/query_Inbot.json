@@ -1,0 +1,8 @@
+{
+    "field_name": "Inbot",
+    "function_name": "resetFunc",
+    "input_type": "boolean",
+    "input_type_format": "scalar",
+    "on_type": "Query",
+    "payload_type_format": ""
+}
