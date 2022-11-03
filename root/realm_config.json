@@ -1,0 +1,9 @@
+{
+    "app_id": "skylead-tjxpi",
+    "config_version": 20210101,
+    "name": "Skylead",
+    "location": "SG",
+    "provider_region": "aws-ap-southeast-1",
+    "deployment_model": "LOCAL",
+    "environment": "production"
+}
