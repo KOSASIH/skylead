@@ -1,0 +1,10 @@
+{
+    "name": "Mediasky",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "Mellodya-Galactica",
+        "readPreference": "primary",
+        "wireProtocolEnabled": true
+    },
+    "version": 1
+}
