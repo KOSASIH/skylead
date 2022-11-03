@@ -1,3 +1,7 @@
 {
-    "enabled": false
+    "enabled": true,
+    "mongo_service_name": "Mediasky",
+    "database_name": "Galacticbase",
+    "collection_name": "Galactics collection",
+    "user_id_field": "Name"
 }
