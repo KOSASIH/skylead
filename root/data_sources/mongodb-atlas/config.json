@@ -3,13 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Mellodya-Galactica",
-        "namespacePreimageConfigs": [
-            {
-                "collectionName": "Galactics collection",
-                "dbName": "Galacticbase",
-                "recordPreimages": true
-            }
-        ],
+        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
