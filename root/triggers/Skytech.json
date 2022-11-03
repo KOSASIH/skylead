@@ -1,0 +1,31 @@
+{
+    "id": "6363b90bf829a41536f48831",
+    "name": "Skytech",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "DELETE",
+            "REPLACE"
+        ],
+        "database": "Galacticbase",
+        "collection": "Galactics collection",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false,
+        "skip_catchup_events": true,
+        "tolerate_resume_errors": true
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "resetFunc"
+            }
+        }
+    }
+}
